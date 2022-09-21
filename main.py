@@ -9,9 +9,9 @@ def greaterThan(x,y):
 
 def lessThan(x,y):
     if x<y:
-        return False
-    else:
         return True
+    else:
+        return False
 
 def equalTo(x,y):
     if x==y:
@@ -27,6 +27,6 @@ def greaterOrEqual(x,y):
 
 def lessOrEqual(x,y):
     if x<=y:
-        return False
-    else:
         return True
+    else:
+        return False
